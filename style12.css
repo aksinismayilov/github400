@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+
+.header-item{
+    height: 55px;
+    background-color: #000000;
+    margin-bottom: 23px;
+}
+
+.box-item{
+    height: 227px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    margin:0 13px 27px 13px ;
+}
+
+.footer-item{
+    width: 80%;
+    height: 45px;
+    margin: 70px auto;
+    border-radius: 10px;
+    background-color: plum;
+}
+
+.container{
+    width: 75%;
+    max-width: 1140px;
+    min-width: 300px;
+    margin: auto;
+}
+
+
+
+

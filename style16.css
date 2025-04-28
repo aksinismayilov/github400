@@ -1,0 +1,146 @@
+.ftco-sec {
+    padding: 8em 0;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background: #f8f8f8;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+
+
+.container{
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.supeding {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    color: #ffa62b;
+    font-weight: 600;
+}
+
+.h2 {
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 1.4;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+}
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.staf {
+    border-radius: 4px;
+    width: 100%;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+}
+
+.staf .img {
+    width: 100%;
+    display: block;
+    height: 420px;
+    background-position: top center !important;
+    position: relative;
+}
+.img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.staf .img .fitco-class li a {
+    height: 40px;
+    width: 40px;
+    display: block;
+    float: left;
+    color: #fff;
+    border-radius: 50%;
+    position: relative;
+    background: #3d424a;
+    margin-bottom: 7px;
+}
+
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    color: #ffa62b;
+    text-decoration: none;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+.staf .text {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.staf .text h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
